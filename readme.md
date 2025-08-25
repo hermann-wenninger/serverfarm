@@ -1,4 +1,4 @@
-## zu simpleserver
+## Zu simpleserver
 
 Für einen produktiven Server, der viele gleichzeitige Verbindungen bewältigen soll, ist dieses "Thread-pro-Verbindung"-Modell nicht geeignet.
 

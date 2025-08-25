@@ -1,3 +1,14 @@
 simpleserver/target
+ibox/target
 *.log
 *.tmp
+*.txt
+*.bak
+*.swp   
+*.swo
+*.class
+*.jar   
+*.war
+*.c
+*.o
+
