@@ -1,6 +1,7 @@
 use std::ops::{Deref, DerefMut};
 use std::fmt::Debug;
 
+/// Ein einfacher Smart Pointer, der den Deref- und Drop-Trait implementiert
 #[derive(Debug)]
 struct MioBox<T: Debug>(T);
 
