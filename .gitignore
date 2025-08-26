@@ -1,6 +1,8 @@
 simpleserver/target
 ibox/target
 condvar/target
+error/target
+threadpool/target
 *.log
 *.tmp
 *.txt
