@@ -3,6 +3,8 @@ ibox/target
 condvar/target
 error/target
 threadpool/target
+marker/target
+
 *.log
 *.tmp
 *.txt
