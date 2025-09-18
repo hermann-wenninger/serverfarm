@@ -2,5 +2,5 @@
 fn main() {
 
 
-println!(r#"r# raw string with "quotes" \n  \r no new line"#);
+println!("{:#?}",b"alle als bytes" as &[u8] );
 }
