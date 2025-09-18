@@ -4,6 +4,7 @@ condvar/target
 error/target
 threadpool/target
 marker/target
+training/target
 
 *.log
 *.tmp
