@@ -2,18 +2,22 @@
 fn main() {
 
 
-let name = "Hermann";
-let name2 = "Arnika";
-let name3 = "Felix";
-let name4 = "Carla";
-let mut x = Vec::new();
-x.push(name);
-x.push(name2);
-x.push(name3);
-x.push(name4);
-println!("{:#?}",&x as &[&str] );
-println!("{:?}",x );
-let y= vec![1,2,3,4,5,6,7,8,9,10];
-println!("{:#?}",&y as &[i32] );
-println!("{:?}",&y[1..3] );
+fn caller() -> u64 {
+    let x = 42u64;
+    let y = 19u64;
+    f(x) + g(y)
+}
+
+fn f(f_param: u64) -> u64 {
+    let two = 2u64;
+    f_param + two
+}
+
+fn g(g_param: u64) -> u64 {
+    let arr = [2u64, 3u64];
+    g_param + arr[1]
+}
+
+let x = caller();
+println!("{}",x);
 }
